@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        position: relative;
+        align-items: center;
+      }
+      .close-button {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        background-color: black;
+        color: white;
+        border:none;
+        border-radius: 50px;;
+        padding-top:6px;
+        padding-bottom: 6px;
+        padding-right: 11px;
+        padding-left: 11px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      .container-2 {
+        position: fixed;
+        position: absolute;
+        background-color: grey;
+        color: white;
+        right: 10px;
+        bottom: 0px;
+        width: 320px;
+        height: 180px;
+      }
+      .timestamp {
+        position: absolute;
+        bottom: 8px;
+        right: 15px;
+        background-color: black;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="container">
+    </div>
+    <div class="container-2">
+      <button class="close-button">X</button>
+      <div class="timestamp">4:59</div>
+    </div>
+  </body>
+</html>
